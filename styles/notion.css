@@ -151,7 +151,7 @@
 
 .notion .notion-page-icon-cover {
   margin-left: true;
-  margin-right: auto;
+  margin-right: false;
 }
 
 .notion-title {
