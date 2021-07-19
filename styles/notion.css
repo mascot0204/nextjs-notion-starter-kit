@@ -9,7 +9,7 @@
 
 .notion {
   --notion-max-width: 1200px;
-  --notion-header-height: 20px;
+  --notion-header-height: 22px;
 }
 
 .notion-page {
@@ -35,7 +35,7 @@
 }
 
 .notion-header .nav-header {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .notion-title {
-  display: block;
+  display: flex;
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-align: center;
@@ -175,8 +175,8 @@
 }
 
 .notion-page-cover {
-  max-height: 1500px;
-  border-radius: 20px;
+  max-width: 950px;
+  border-radius: 16px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
