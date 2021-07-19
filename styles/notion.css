@@ -8,8 +8,8 @@
  */
 
 .notion {
-  --notion-max-width: 1080px;
-  --notion-header-height: 18px;
+  --notion-max-width: 1200px;
+  --notion-header-height: 20px;
 }
 
 .notion-page {
@@ -35,7 +35,7 @@
 }
 
 .notion-header .nav-header {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -156,7 +156,7 @@
 
 .notion-title {
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .notion-collection-column-title {
@@ -173,8 +173,9 @@
 }
 
 .notion-page-cover {
-  max-width: 800px;
-  border-radius: 24px;
+  max-width: 1000px;
+  max-height: 600px;
+  border-radius: 20px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
