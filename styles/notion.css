@@ -156,7 +156,7 @@
 
 .notion-title {
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .notion-collection-column-title {
@@ -174,7 +174,7 @@
 
 .notion-page-cover {
   max-width: 1200px;
-  border-radius: 24px;
+  border-radius: 124px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
