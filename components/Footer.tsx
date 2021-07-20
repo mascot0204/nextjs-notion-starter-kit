@@ -64,6 +64,17 @@ export const Footer: React.FC<{
             <FaGithub />
           </a>
         )}
+        {config.wechat && (
+          <a
+            className={styles.wechat}
+            href={`https://p.pstatp.com/origin/pgc-image/430a1f485fc443a89a3beffd962e1945/${config.wechat}`}
+            title={`Wechat @${config.wechat}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaWechat />
+          </a>
+        )}
 
         
       </div>
