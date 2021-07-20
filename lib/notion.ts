@@ -101,6 +101,6 @@ export async function getPage(pageId: string): Promise<ExtendedRecordMap> {
   return recordMap
 }
 
-export async function search(params: SearchParams): Promise<SearchResults> {
-  return notion.search(params)
-}
+// export async function search(params: SearchParams): Promise<SearchResults> {
+//   return notion.search(params)
+// }
