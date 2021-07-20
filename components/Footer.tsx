@@ -33,7 +33,7 @@ export const Footer: React.FC<{
           <a
             className={styles.toggleDarkMode}
             onClick={toggleDarkModeCb}
-            title='Tottle dark mode'
+            title='夜间模式'
           >
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
@@ -41,18 +41,7 @@ export const Footer: React.FC<{
       ) : null}
 
       <div className={styles.social}>
-        {config.twitter && (
-          <a
-            className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaTwitter />
-          </a>
-        )}
-
+      
         {config.github && (
           <a
             className={styles.github}
@@ -64,18 +53,7 @@ export const Footer: React.FC<{
             <FaGithub />
           </a>
         )}
-        {config.wechat && (
-          <a
-            className={styles.wechat}
-            href={`https://p.pstatp.com/origin/pgc-image/430a1f485fc443a89a3beffd962e1945/${config.wechat}`}
-            title={`Wechat @${config.wechat}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaWechat />
-          </a>
-        )}
-
+  
         
       </div>
     </footer>
