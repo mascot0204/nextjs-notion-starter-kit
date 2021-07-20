@@ -65,17 +65,7 @@ export const Footer: React.FC<{
           </a>
         )}
 
-        {config.linkedin && (
-          <a
-            className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaLinkedin />
-          </a>
-        )}
+        
       </div>
     </footer>
   )
