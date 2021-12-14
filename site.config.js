@@ -9,7 +9,7 @@ module.exports = {
   // basic site info (required)
   name: 'mascot',
   domain: 'https://www.notion.so/the-life-ea288e7335814b119ea370180767782d',
-  author: '蛋糕有点咸',
+  author: '折腾的尽头是默认',
 
   // open graph metadata (optional)
   description: 'Example site description',
